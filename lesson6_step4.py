@@ -1,18 +1,13 @@
-# lesson link on Stepik: https://stepik.org/lesson/138920/step/5?unit=196194
+# lesson_link on Stepik: https://stepik.org/lesson/138920/step/4?unit=196194
 
-import math
-import time
 from selenium import webdriver
+import time
 
-
-link = "http://suninjuly.github.io/find_link_text"
+link = "http://suninjuly.github.io/simple_form_find_task.html"
 
 try:
     browser = webdriver.Chrome()
     browser.get(link)
-
-    hidden_link = browser.find_element_by_link_text(str(math.ceil(math.pow(math.pi, math.e)*10000)))
-    hidden_link.click()
 
     input1 = browser.find_element_by_tag_name("input")
     input1.send_keys("Ivan")
@@ -30,5 +25,7 @@ try:
     button.click()
 
 finally:
+    # успеваем скопировать код за 30 секунд
     time.sleep(30)
+    # закрываем браузер после всех манипуляций
     browser.quit()
