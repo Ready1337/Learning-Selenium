@@ -1,4 +1,4 @@
-# lesson_link on Stepik: https://stepik.org/lesson/138920/step/4?unit=196194
+# lesson link on Stepik: https://stepik.org/lesson/138920/step/4?unit=196194
 
 from selenium import webdriver
 import time
