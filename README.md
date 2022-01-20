@@ -4,7 +4,7 @@ This is a branch of my implementations for the tasks of the following course: ht
 
 Each <file_name>.py contains a link to the following lesson where you can find task statements
 
-###Quick brief through the course points:
+<h3>Quick brief through the course points:</h3>
 <ul>
     <li>CSS selectors and Selenium WebDriver</li>
     <li>Useful Selenium methods</li>
