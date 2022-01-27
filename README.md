@@ -1,6 +1,6 @@
 # Test automation using Selenium and Python
 
-This is a repository with my implementations for the tasks of the following course: https://stepik.org/course/575/syllabus
+This is a repository with my implementations of the tasks of the following course: https://stepik.org/course/575/syllabus
 
 Each <file_name>.py contains a link to the following lesson where you can find task statements
 
