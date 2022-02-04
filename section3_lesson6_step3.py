@@ -19,8 +19,7 @@ link_params = [
 
 
 @pytest.mark.parametrize('link', link_params)
-def test_parametrization(link):
-    browser = webdriver.Chrome()
+def test_parametrization(browser, link):
     browser.implicitly_wait(30)
     browser.get(link)
 
@@ -36,4 +35,3 @@ def test_parametrization(link):
     print(test_value)
 
     assert test_value == 'Correct!'
-
