@@ -13,5 +13,5 @@ Each <file_name>.py contains a link to the following lesson where you can find t
     <li>Few words about frameworks for Page Object Model</li>
 </ul>
 
-### As a result of the course, valuable skills in writing tests using Selenium were obtained, which found their application in the next test project:
+### As a result of the course, valuable skills in writing automated tests using Selenium were obtained, which found their application in the next test project:
 https://github.com/Ready1337/Page_Object_Model_test
